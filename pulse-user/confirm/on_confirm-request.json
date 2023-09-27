@@ -20,6 +20,7 @@
     },
     "message": {
         "order": {
+            "id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
             "providers": {
                 "id": "pulse-energy",
                 "descriptor": {

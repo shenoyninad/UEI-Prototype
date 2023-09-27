@@ -1,7 +1,7 @@
 {
     "context": {
         "domain": "dent:0.1.0",
-        "action": "on_confirm",
+        "action": "on_status",
         "location": {
             "country": {
                 "name": "India",
@@ -12,8 +12,8 @@
         "version": "1.1.0",
         "bap_id": "sheru-bap.com",
         "bap_uri": "https://api.sheru-bap.com/pilot/bap/energy/v1",
-        "bpp_id": "pulse-energy-bpp.com",
-        "bpp_uri": "https://api.pulse-energy-bpp.com/pilot/bpp/",
+        "bpp_id": "turno-bpp.com",
+        "bpp_uri": "https://api.turno-bpp.com/pilot/bpp/",
         "transaction_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
         "message_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
         "timestamp": "2023-07-16T04:41:16Z"
@@ -22,18 +22,18 @@
         "order": {
             "id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
             "providers": {
-                "id": "pulse-energy",
+                "id": "turno",
                 "descriptor": {
-                    "name": "Pulse Energy",
-                    "short_desc": "Pulse Energy Technologies Private Limited",
+                    "name": "Turno",
+                    "short_desc": "Blubble Pvt Ltd",
                     "long_desc": "Trusted by India's leading EV Fleets & Charging Point Operators",
                     "images": [
                         {
-                            "url": "https://uploads-ssl.webflow.com/63053217ec1dde3173cc4fba/63054ac29768d89e9ec931bc_Group%20707.png",
+                            "url": "https://tinyurl.com/turno-image",
                             "size_type": "xs"
                         }
                     ]
-                    }
+                }
             },
             "items": [
                 {
@@ -73,8 +73,8 @@
                     "type": "DISPATCH",
                     "state": {
                         "descriptor": {
-                            "code": "order-confirmed",
-                            "name": "Energy order has been confirmed"
+                            "code": "energy-transferred",
+                            "name": "The energy has been transferred"
                         }
                     }
                 }

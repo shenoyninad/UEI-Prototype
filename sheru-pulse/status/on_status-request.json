@@ -1,7 +1,7 @@
 {
     "context": {
         "domain": "dent:0.1.0",
-        "action": "on_confirm",
+        "action": "on_status",
         "location": {
             "country": {
                 "name": "India",
@@ -73,8 +73,8 @@
                     "type": "DISPATCH",
                     "state": {
                         "descriptor": {
-                            "code": "order-confirmed",
-                            "name": "Energy order has been confirmed"
+                            "code": "energy-transferred",
+                            "name": "The energy has been transferred"
                         }
                     }
                 }
