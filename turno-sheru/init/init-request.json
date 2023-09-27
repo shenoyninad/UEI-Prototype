@@ -1,0 +1,60 @@
+{
+    "context": {
+        "domain": "dent:0.1.0",
+        "action": "init",
+        "location": {
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "city": "std:080",
+        "version": "1.1.0",
+        "bap_id": "sheru-bap.com",
+        "bap_uri": "https://api.sheru-bap.com/pilot/bap/energy/v1",
+        "bpp_id": "turno-bpp.com",
+        "bpp_uri": "https://api.turno-bpp.com/pilot/bpp/",
+        "transaction_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+        "message_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+        "timestamp": "2023-07-16T04:41:16Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "turno"
+            },
+            "items": [
+                {
+                    "id": "ge-charge-01",
+                    "quantity": {
+                        "selected": {
+                            "measure": {
+                                "unit": "kwH",
+                                "value": "4"
+                            }
+                        }
+                    }
+                }
+            ],
+            "billing": {
+                "name": "Sheru",
+                "email": "billing@sheru.com",
+                "phone": "+91-9876522222"
+            },
+            "fulfillments": [
+                {
+                    "id": "1",
+                    "customer": {
+                        "person": {
+                            "name": "Sheru"
+                        },
+                        "contact": {
+                            "email": "billing@sheru.com",
+                            "phone": "+91-9887766554"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
