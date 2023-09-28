@@ -20,7 +20,7 @@
     },
     "message": {
         "order": {
-            "providers": {
+            "provider": {
                 "id": "pulse-energy",
                 "descriptor": {
                     "name": "Pulse Energy",
