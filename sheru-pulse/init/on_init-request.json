@@ -38,7 +38,8 @@
                 {
                     "id": "ge-charge-01",
                     "descriptor": {
-                        "code": "energy"
+                        "code": "energy-demand",
+                        "name": "Energy Demand"
                     },
                     "price": {
                         "value": "2",

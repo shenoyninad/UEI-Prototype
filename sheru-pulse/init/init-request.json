@@ -25,6 +25,10 @@
             },
             "items": [
                 {
+                    "descriptor": {
+                        "code": "energy-demand",
+                        "name": "Energy Demand"
+                    },
                     "id": "ge-charge-01",
                     "quantity": {
                         "selected": {

@@ -33,13 +33,14 @@
                             "size_type": "xs"
                         }
                     ]
-                    }
+                }
             },
             "items": [
                 {
                     "id": "ge-charge-01",
                     "descriptor": {
-                        "code": "energy"
+                        "code": "energy-demand",
+                        "name": "Energy Demand"
                     },
                     "price": {
                         "value": "2",
@@ -137,6 +138,19 @@
                         "mimetype": "text/html",
                         "url": "https://pulseenergy.in/charge/tnc.html"
                     }
+                }
+            ],
+            "docs": [
+                {
+                    "descriptor": {
+                        "code": "demand-note",
+                        "name": "Demand Note",
+                        "short_desc": "Demand note contract"
+                    },
+                    "mime_type": "application/json",
+                    "url": "https://pulseenergy.in/demand-note/04389d8c-6a50-4664-9c08-4ee45fef44e8.json",
+                    "signature": "",
+                    "dsa": "ed25519"
                 }
             ]
         }
