@@ -122,22 +122,6 @@
                     "status": "PAID",
                     "type": "PRE-ORDER"
                 }
-            ],
-            "cancellation_terms": [
-                {
-                    "fulfillment_state": {
-                        "descriptor": {
-                            "code": "dispatch-start"
-                        }
-                    },
-                    "cancellation_fee": {
-                        "percentage": "30%"
-                    },
-                    "external_ref": {
-                        "mimetype": "text/html",
-                        "url": "https://pulseenergy.in/charge/tnc.html"
-                    }
-                }
             ]
         }
     }

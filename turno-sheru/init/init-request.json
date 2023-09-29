@@ -25,7 +25,6 @@
             },
             "items": [
                 {
-                    "id": "ge-charge-01",
                     "quantity": {
                         "selected": {
                             "measure": {
