@@ -53,6 +53,7 @@
                             }
                         }
                     },
+                    "ttl": "PT5M",
                     "fulfillment_ids": [
                         "1"
                     ]
