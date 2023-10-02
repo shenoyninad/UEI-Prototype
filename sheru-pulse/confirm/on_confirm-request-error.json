@@ -1,0 +1,133 @@
+{
+    "context": {
+        "domain": "dent:0.1.0",
+        "action": "on_confirm",
+        "location": {
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "city": "std:080",
+        "version": "1.1.0",
+        "bap_id": "sheru-bap.com",
+        "bap_uri": "https://api.sheru-bap.com/pilot/bap/energy/v1",
+        "bpp_id": "pulse-energy-bpp.com",
+        "bpp_uri": "https://api.pulse-energy-bpp.com/pilot/bpp/",
+        "transaction_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+        "message_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+        "timestamp": "2023-07-16T04:41:16Z"
+    },
+    "message": {
+        "order": {
+            "id": "6743e9e2-4fb5-487c-92b7-13ba8018f176",
+            "provider": {
+                "id": "pulse-energy",
+                "descriptor": {
+                    "name": "Pulse Energy",
+                    "short_desc": "Pulse Energy Technologies Private Limited",
+                    "long_desc": "Trusted by India's leading EV Fleets & Charging Point Operators",
+                    "images": [
+                        {
+                            "url": "https://uploads-ssl.webflow.com/63053217ec1dde3173cc4fba/63054ac29768d89e9ec931bc_Group%20707.png",
+                            "size_type": "xs"
+                        }
+                    ]
+                }
+            },
+            "items": [
+                {
+                    "id": "ge-charge-01",
+                    "descriptor": {
+                        "code": "energy-demand",
+                        "name": "Energy Demand"
+                    },
+                    "price": {
+                        "value": "2",
+                        "currency": "INR/kWH"
+                    },
+                    "quantity": {
+                        "selected": {
+                            "measure": {
+                                "value": "4",
+                                "unit": "kWh"
+                            }
+                        }
+                    },
+                    "fulfillment_ids": [
+                        "1"
+                    ]
+                }
+            ],
+            "fulfillments": [
+                {
+                    "id": "1",
+                    "customer": {
+                        "person": {
+                            "name": "Sheru"
+                        },
+                        "contact": {
+                            "email": "billing@sheru.com",
+                            "phone": "+91-9887766554"
+                        }
+                    },
+                    "type": "DISPATCH",
+                    "state": {
+                        "descriptor": {
+                            "code": "transaction-timeout",
+                            "name": "There was a timeout in the transaction"
+                        }
+                    }
+                }
+            ],
+            "billing": {
+                "name": "Sheru",
+                "email": "billing@sheru.com",
+                "phone": "+91-9876522222"
+            },
+            "quote": {
+                "price": {
+                    "value": "8",
+                    "currency": "INR"
+                },
+                "breakup": [
+                    {
+                        "item": {
+                            "descriptor": {
+                                "name": "Estimated units consumed"
+                            },
+                            "quantity": {
+                                "selected": {
+                                    "measure": {
+                                        "value": "4",
+                                        "unit": "kWh"
+                                    }
+                                }
+                            }
+                        },
+                        "price": {
+                            "value": "8",
+                            "currency": "INR"
+                        }
+                    }
+                ]
+            },
+            "payments": [
+                {
+                    "collected_by": "BPP",
+                    "params": {
+                        "amount": "8",
+                        "currency": "INR",
+                        "transaction_id": "6743e9e2-4fb5-487c-92b7-13ba8018f176"
+                    },
+                    "status": "PAID",
+                    "type": "PRE-ORDER"
+                }
+            ]
+        }
+    },
+    "error": {
+        "code": "30000",
+        "message": "The transaction timed out"
+    }
+}
